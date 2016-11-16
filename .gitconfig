@@ -1,0 +1,22 @@
+[user]
+	email = jonathan.asquier@gmail.com
+	name = Jonathan Asquier
+[color]
+	ui = auto
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	showfiles = show --pretty='format:' --name-only
+	hist = log --graph
+	gerrit = push origin HEAD:refs/for/master
+	graph = log --graph --full-history --all --pretty=format:\"%h%x09%d%x20%s\"
+	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ $`echo $VAR` = \\\"$OLD\\\" ]]; then export $VAR=\\\"$NEW\\\"; fi\" $@; }; f " 
+        tree = log --all --graph --decorate=short --color --format=format:'%C(bold blue)%h%C(reset) %C(auto)%d%C(reset)\n         %C(black)[%cr]%C(reset)  %x09%C(black)%an: %s %C(reset)'
+[http]
+    sslVerify = true
+[core]
+	editor = vim
