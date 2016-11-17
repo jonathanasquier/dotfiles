@@ -1,5 +1,5 @@
 # install apps
-sudo apt-get install compton i3 i3lock scrot nitrogen sysstat acpi rofi fonts-font-awesome xbacklight ranger chromium-browser
+sudo apt-get install compton i3 i3lock scrot nitrogen sysstat acpi rofi fonts-font-awesome xbacklight ranger chromium-browser redshift
 
 # launch and configure nitrogen for background images
 
