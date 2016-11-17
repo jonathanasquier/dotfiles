@@ -1,13 +1,12 @@
-sudo apt-get install compton
-sudo apt-get install i3lock
-sudo apt-get install scrot
-sudo apt-get install nitrogen
-sudo apt-get install sysstat
-sudo apt-get install acpi
-sudo apt-get install rofi
-sudo apt-get install fonts-font-awesome
-sudo apt-get install xbacklight
+# install apps
+sudo apt-get install compton i3 i3lock scrot nitrogen sysstat acpi rofi fonts-font-awesome xbacklight ranger chromium-browser
 
+# launch and configure nitrogen for background images
+
+# no desktop on nautilus launch
 gsettings set org.gnome.desktop.background show-desktop-icons false
+
+# back to nice unity notifications
 sudo apt-get purge dunst
 
+# install docker, atom
