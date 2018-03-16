@@ -13,10 +13,11 @@
 	showfiles = show --pretty='format:' --name-only
 	hist = log --graph
 	gerrit = push origin HEAD:refs/for/master
-	graph = log --graph --full-history --all --pretty=format:\"%h%x09%d%x20%s\"
-	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ $`echo $VAR` = \\\"$OLD\\\" ]]; then export $VAR=\\\"$NEW\\\"; fi\" $@; }; f " 
-        tree = log --all --graph --decorate=short --color --format=format:'%C(bold blue)%h%C(reset) %C(auto)%d%C(reset)\n         %C(black)[%cr]%C(reset)  %x09%C(black)%an: %s %C(reset)'
+	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ $`echo $VAR` = \\\"$OLD\\\" ]]; then export $VAR=\\\"$NEW\\\"; fi\" $@; }; f "
+        graph = log --all --graph --decorate=short --color --format=format:'%C(bold blue)%h%C(reset) %C(auto)%d%C(reset)\n         %C(black)[%cr]%C(reset)  %x09%C(bold blue)%an: %s %C(reset)'
 [http]
     sslVerify = true
 [core]
 	editor = vim
+[sequence]
+	editor = rebase-editor

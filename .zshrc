@@ -9,6 +9,13 @@
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="af-magic"
 
+# Set list of themes to load
+# Setting this variable when ZSH_THEME=random
+# cause zsh load theme from this variable instead of
+# looking in ~/.oh-my-zsh/themes/
+# An empty array have no effect
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -32,7 +39,7 @@ ZSH_THEME="af-magic"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-COMPLETION_WAITING_DOTS="true"
+# COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -51,7 +58,16 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump command-not-found docker git-extras git-flow npm sudo tig)
+plugins=(
+  git
+  github
+  git-flow
+  git-extras
+  redis-cli
+  sudo
+  npm
+  node
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -73,7 +89,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -83,4 +99,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export EDITOR=/usr/bin/vim.basic
+
+# Chrome/electron based app are broken on Ubuntu 17.10
+alias atom="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && atom --force-device-scale-factor=2"
+alias mongodb-compass="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && mongodb-compass --force-device-scale-factor=1.8"
+alias postman="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && Postman --force-device-scale-factor=1.8"
+alias chromium-browser="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && chromium-browser --force-device-scale-factor=1.8"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
