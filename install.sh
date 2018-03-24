@@ -14,7 +14,7 @@ gsettings set org.gnome.desktop.background show-desktop-icons false
 # back to nice unity notifications
 sudo apt-get purge dunst
 
-# install docker, atom, ulauncher, ctop (on github), postman, mongodb compass, fzf https://github.com/junegunn/fzf
+# install dropbox, docker, atom, ulauncher, ctop (on github), postman, mongodb compass, fzf https://github.com/junegunn/fzf
 
 # install spaceship theme for zsh https://github.com/denysdovhan/spaceship-prompt
 # patch ~/.oh-my-zsh/custom/themes/spaceship-prompt/sections/dir.zsh with
