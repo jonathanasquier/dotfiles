@@ -105,5 +105,10 @@ alias atom="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && atom --force
 alias mongodb-compass="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && mongodb-compass --force-device-scale-factor=1.8"
 alias postman="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && Postman --force-device-scale-factor=1.8"
 alias chromium-browser="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && chromium-browser --force-device-scale-factor=1.8"
+alias spotify="spotify --force-device-scale-factor=1.8"
+
+alias dk='docker run --rm -u $(id -u):$(id -g) -v $(pwd):$(pwd) -w $(pwd)'
+
+alias toomuchcpu='watch "ps aux | sort -nrk 3,3 | head -n 5"'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
