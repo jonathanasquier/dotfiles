@@ -108,7 +108,10 @@ alias chromium-browser="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && 
 alias spotify="spotify --force-device-scale-factor=1.8"
 
 alias dk='docker run --rm -u $(id -u):$(id -g) -v $(pwd):$(pwd) -w $(pwd)'
+alias dkr='docker run --rm -v $(pwd):$(pwd) -w $(pwd)'
 
 alias toomuchcpu='watch "ps aux | sort -nrk 3,3 | head -n 5"'
+
+alias ghostfiles='lsof +L1'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
