@@ -20,3 +20,5 @@ sudo apt-get purge dunst
 # patch ~/.oh-my-zsh/custom/themes/spaceship-prompt/sections/dir.zsh with
 # " ENV=[${ENV}] " \
 # in spaceship::section to have a dynamic env displayed in the prompt
+
+# chown -R root .oh-my-zsh to prevent compinit warnings
