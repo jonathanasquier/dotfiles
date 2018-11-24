@@ -21,6 +21,9 @@ sudo apt-get purge dunst
 # " ENV=[${ENV}] " \
 # in spaceship::section to have a dynamic env displayed in the prompt
 
+# edit prefs on ulauncher
 # chown -R root .oh-my-zsh to prevent compinit warnings
+
+# edit terminal: black, text green #4AF626
 
 # set xorg conf for luminosity control
