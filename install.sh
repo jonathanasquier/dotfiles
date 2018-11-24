@@ -22,3 +22,5 @@ sudo apt-get purge dunst
 # in spaceship::section to have a dynamic env displayed in the prompt
 
 # chown -R root .oh-my-zsh to prevent compinit warnings
+
+# set xorg conf for luminosity control
