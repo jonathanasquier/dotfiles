@@ -8,14 +8,6 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 
 # launch and configure nitrogen for background images
 
-# no desktop on nautilus launch
-gsettings set org.gnome.desktop.background show-desktop-icons false
-
-# back to nice unity notifications
-sudo apt-get purge dunst
-
-# install dropbox, docker, atom, ulauncher, ctop (on github), postman, mongodb compass, fzf https://github.com/junegunn/fzf
-
 # install spaceship theme for zsh https://github.com/denysdovhan/spaceship-prompt
 # patch ~/.oh-my-zsh/custom/themes/spaceship-prompt/sections/dir.zsh with
 # " ENV=[${ENV}] " \
@@ -26,4 +18,12 @@ sudo apt-get purge dunst
 
 # edit terminal: black, text green #4AF626
 
-# set xorg conf for luminosity control
+# set xorg.conf for luminosity control
+
+# no desktop on nautilus launch
+gsettings set org.gnome.desktop.background show-desktop-icons false
+
+# back to nice unity notifications
+sudo apt-get purge dunst
+
+# install dropbox, docker, atom, ulauncher, ctop (on github), postman, mongodb compass, wavebox, fzf https://github.com/junegunn/fzf
