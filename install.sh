@@ -4,6 +4,7 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 # if bar is too big => change in i3 the font size
 # if location is .config/i3/config change the path in status_command
 # check paths in i3 blocks config also
+# comment program workspaces in i3 also
 
 # use lxappearance to change to font size of GTK software
 
