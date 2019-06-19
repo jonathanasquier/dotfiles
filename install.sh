@@ -30,4 +30,4 @@ gsettings set org.gnome.desktop.background show-desktop-icons false
 # back to nice unity notifications
 sudo apt-get purge dunst
 
-# install dropbox, docker, atom, ulauncher, ctop (on github), postman, mongodb compass, wavebox, fzf https://github.com/junegunn/fzf
+# install dropbox, docker, atom, ulauncher, ctop (on github), postman, mongodb compass, wavebox, fzf https://github.com/junegunn/fzf, rebase editor https://github.com/sjurba/rebase-editor
