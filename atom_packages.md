@@ -5,4 +5,6 @@ pigments
 minimap-pigments
 minimap-git-diff
 linter-eslint
+atom-beautify
 react
+
