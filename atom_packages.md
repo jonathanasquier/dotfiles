@@ -7,4 +7,4 @@ minimap-git-diff
 linter-eslint
 atom-beautify
 react
-
+git-blame
