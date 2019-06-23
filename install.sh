@@ -17,8 +17,9 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 # " ENV=[${ENV}] " \
 # in spaceship::section to have a dynamic env displayed in the prompt
 
+(# ulauncher
 # edit prefs on ulauncher
-# chown -R root .oh-my-zsh to prevent compinit warnings
+# chown -R root .oh-my-zsh to prevent compinit warnings)
 
 # edit terminal: black, text green #4AF626
 
@@ -27,4 +28,4 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 # no desktop on nautilus launch
 gsettings set org.gnome.desktop.background show-desktop-icons false
 
-# install dropbox, docker, atom, ulauncher, ctop (on github), postman, mongodb compass, wavebox, fzf https://github.com/junegunn/fzf, rebase editor https://github.com/sjurba/rebase-editor
+# install dropbox, docker, atom, ctop (on github), postman, mongodb compass, wavebox, fzf https://github.com/junegunn/fzf, rebase editor https://github.com/sjurba/rebase-editor
