@@ -87,7 +87,8 @@
   bindsym $mod+Shift+f exec firefox
   bindsym $mod+Return exec i3-sensible-terminal
 # bindsym $mod+d exec rofi -show run -width 1366 -fg "#eceff1" -bg "#101218" -hlfg "#D1D4E0" -hlbg "#1f222d" -bc "#37474F" -location 0 -lines 8 -bw 0 -font "terminus 12" -padding 50 -separator-style none
-  bindsym $mod+d exec ulauncher
+# bindsym $mod+d exec ulauncher
+  bindsym $mod+d exec rofi -show run
 
   # bindsym --release Print exec imgur-screenshot
   bindsym $mod+Shift+e exec "i3-msg exit"
