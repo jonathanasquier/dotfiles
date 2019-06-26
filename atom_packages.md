@@ -8,3 +8,4 @@ linter-eslint
 atom-beautify
 react
 git-blame
+pug-language
