@@ -1,5 +1,5 @@
 # install apps
-sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-tools scrot nitrogen sysstat acpi rofi fonts-font-awesome xbacklight ranger chromium-browser redshift gimp git zsh git-flow htop filezilla
+sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-tools scrot nitrogen sysstat acpi rofi fonts-font-awesome xbacklight ranger chromium-browser redshift gimp git zsh git-flow htop filezilla xvkbd
 # LOG TO I3
 # if bar is too big => change in i3 the font size
 # if location is .config/i3/config change the path in status_command
