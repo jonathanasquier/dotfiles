@@ -101,6 +101,25 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+decode_base64_url() {
+  local len=$((${#1} % 4))
+  local result="$1"
+  if [ $len -eq 2 ]; then result="$1"'=='
+  elif [ $len -eq 3 ]; then result="$1"'=' 
+  fi
+  echo "$result" | tr '_-' '/+' | openssl enc -d -base64
+}
+
+decode_jwt(){
+   decode_base64_url $(echo -n $2 | cut -d "." -f $1) | jq .
+}
+
+# Decode JWT header
+alias jwth="decode_jwt 1"
+
+# Decode JWT Payload
+alias jwtp="decode_jwt 2"
+
 # Chrome/electron based app are broken on Ubuntu 17.10
 alias atom="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && atom --force-device-scale-factor=2"
 alias mongodb-compass="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && mongodb-compass --force-device-scale-factor=1.8"
