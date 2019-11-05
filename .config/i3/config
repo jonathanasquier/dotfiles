@@ -46,7 +46,7 @@
   bindsym $mod+Down focus down
   bindsym $mod+Up focus up
   bindsym $mod+Right focus right
-  bindsym $mod+o exec i3lock
+  bindsym $mod+o exec ~/.config/i3/lock.sh
   bindsym $mod+Shift+h move left
   bindsym $mod+Shift+j move down
   bindsym $mod+Shift+k move up
