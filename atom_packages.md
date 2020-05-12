@@ -9,3 +9,4 @@ atom-beautify
 react
 git-blame
 pug-language
+atom-ide-debugger-node
