@@ -105,7 +105,7 @@ decode_base64_url() {
   local len=$((${#1} % 4))
   local result="$1"
   if [ $len -eq 2 ]; then result="$1"'=='
-  elif [ $len -eq 3 ]; then result="$1"'=' 
+  elif [ $len -eq 3 ]; then result="$1"'='
   fi
   echo "$result" | tr '_-' '/+' | openssl enc -d -base64
 }
@@ -121,11 +121,11 @@ alias jwth="decode_jwt 1"
 alias jwtp="decode_jwt 2"
 
 # Chrome/electron based app are broken on Ubuntu 17.10
-alias atom="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && atom --force-device-scale-factor=2"
-alias mongodb-compass="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && mongodb-compass --force-device-scale-factor=1.8"
-alias postman="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && Postman --force-device-scale-factor=1.8"
-alias chromium-browser="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && chromium-browser --force-device-scale-factor=1.8"
-alias spotify="spotify --force-device-scale-factor=1.8"
+alias atom="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && atom --force-device-scale-factor=1"
+alias mongodb-compass="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && mongodb-compass --force-device-scale-factor=1"
+# alias postman="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && Postman --force-device-scale-factor=1"
+alias chromium-browser="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && chromium-browser --force-device-scale-factor=1"
+alias spotify="export XDG_CONFIG_DIRS="" && export GTK2_RC_FILES="" && spotify --force-device-scale-factor=1"
 
 alias dk='docker run --rm -u $(id -u):$(id -g) -v $(pwd):$(pwd) -w $(pwd)'
 alias dkr='docker run --rm -v $(pwd):$(pwd) -w $(pwd)'
@@ -134,10 +134,18 @@ alias toomuchcpu='watch "ps aux | sort -nrk 3,3 | head -n 5"'
 
 alias ghostfiles='lsof +L1'
 
-alias postman="$HOME/Documents/Apps/Postman/app/Postman"
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias postman="$HOME/Apps/Postman/app/Postman"
+export PATH="/opt/wavebox:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jonathan/.fzf/bin:/home/jonathan/.vimpkg/bin:/opt/wavebox"
+
+NODE_DEFAULT_VERSION=$(<"$NVM_DIR/alias/default")
+export PATH="$NVM_DIR/versions/node/$NODE_DEFAULT_VERSION/bin":$PATH
+
+alias vim="stty stop '' -ixoff; vim"
+
+. /etc/profile.d/golang_path.sh
