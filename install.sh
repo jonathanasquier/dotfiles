@@ -1,7 +1,9 @@
 # install apps
 sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-tools scrot nitrogen sysstat acpi rofi fonts-font-awesome xbacklight ranger chromium-browser redshift gimp git zsh git-flow htop filezilla xvkbd jq pulseaudio-module-bluetooth xcompmgr blueman vim curl
 # LOG TO I3
+# config .config to ~/.config
 # if bar is too big => change in i3 the font size
+# chmod +x .config/i3/lock.sh
 # if location is .config/i3/config change the path in status_command
 # check paths in i3 blocks config also
 # comment program workspaces in i3 also
