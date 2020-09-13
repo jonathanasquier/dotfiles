@@ -31,3 +31,5 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 gsettings set org.gnome.desktop.background show-desktop-icons false
 
 # install dropbox, docker, atom, ctop (on github), postman, mongodb compass, wavebox, fzf https://github.com/junegunn/fzf, rebase editor https://github.com/sjurba/rebase-editor
+
+# repair fans https://doc.ubuntu-fr.org/lm-sensors
