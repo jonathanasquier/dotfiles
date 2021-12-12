@@ -15,9 +15,6 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 # launch and configure nitrogen for background images
 
 # install spaceship theme for zsh https://github.com/denysdovhan/spaceship-prompt
-# patch ~/.oh-my-zsh/custom/themes/spaceship-prompt/sections/dir.zsh with
-# " ENV=[${ENV}] " \
-# in spaceship::section to have a dynamic env displayed in the prompt
 
 (# ulauncher
 # edit prefs on ulauncher
