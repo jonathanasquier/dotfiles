@@ -2,14 +2,14 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/trusk/.oh-my-zsh"
-export ZSH_DISABLE_COMPFIX=true
-export ENV=development
+export ZSH="$HOME/.oh-my-zsh"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="spaceship"
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -70,16 +70,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-  github
-  git-flow
-  git-extras
-  redis-cli
-  sudo
-  npm
-  node
-)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,6 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias code="code --disable-gpu"
+
 export ENV=development
 
 decode_base64_url() {
@@ -135,5 +129,3 @@ alias dkr='docker run --rm -v $(pwd):$(pwd) -w $(pwd)'
 alias toomuchcpu='watch "ps aux | sort -nrk 3,3 | head -n 5"'
 
 alias ghostfiles='lsof +L1'
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
