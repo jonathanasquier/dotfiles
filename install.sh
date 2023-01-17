@@ -9,6 +9,7 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 # comment program workspaces in i3 also
 # install rofi theme https://github.com/adi1090x/rofi
 # use SZH in the launcher shebang (#!/usr/bin/env zsh) .config/rofi/launchers/type-X/launcher.sh 
+# use https://unix.stackexchange.com/a/217223 to prevent always prompting ssh key
 
 # use lxappearance to change to font size of GTK software
 
@@ -28,3 +29,4 @@ gsettings set org.gnome.desktop.background show-desktop-icons false
 # install dropbox, docker, atom, ctop (on github), postman, mongodb compass, wavebox, fzf https://github.com/junegunn/fzf, rebase editor https://github.com/sjurba/rebase-editor
 
 # repair fans https://doc.ubuntu-fr.org/lm-sensors
+
