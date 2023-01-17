@@ -1,5 +1,5 @@
 # install apps
-sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-tools scrot nitrogen sysstat acpi rofi fonts-font-awesome xbacklight ranger chromium-browser redshift gimp git zsh git-flow htop filezilla xvkbd jq pulseaudio-module-bluetooth xcompmgr blueman vim curl
+sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-tools scrot nitrogen sysstat acpi rofi fonts-font-awesome xbacklight ranger redshift gimp git zsh git-flow htop filezilla xvkbd jq pulseaudio-module-bluetooth xcompmgr blueman vim curl
 # LOG TO I3
 # config .config to ~/.config
 # if bar is too big => change in i3 the font size
@@ -7,6 +7,7 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 # if location is .config/i3/config change the path in status_command
 # check paths in i3 blocks config also
 # comment program workspaces in i3 also
+# install rofi theme https://github.com/adi1090x/rofi
 
 # use lxappearance to change to font size of GTK software
 
@@ -15,10 +16,6 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 # launch and configure nitrogen for background images
 
 # install spaceship theme for zsh https://github.com/denysdovhan/spaceship-prompt
-
-(# ulauncher
-# edit prefs on ulauncher
-# chown -R root .oh-my-zsh to prevent compinit warnings)
 
 # edit terminal: black, text green #4AF626
 
