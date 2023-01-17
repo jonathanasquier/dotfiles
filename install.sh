@@ -8,6 +8,7 @@ sudo apt-get install lxappearance compton i3 i3lock i3blocks i3status suckless-t
 # check paths in i3 blocks config also
 # comment program workspaces in i3 also
 # install rofi theme https://github.com/adi1090x/rofi
+# use SZH in the launcher shebang (#!/usr/bin/env zsh) .config/rofi/launchers/type-X/launcher.sh 
 
 # use lxappearance to change to font size of GTK software
 
