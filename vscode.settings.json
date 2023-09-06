@@ -1,0 +1,40 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "npm.keybindingsChangedWarningShown": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chatgpt.clearanceToken": "keUBnTl3rZjO4kLGe9_el6T00LTIB2PWwQYsrU4iZJ4-1675252544-0-1-c368b870.4bc8d68f.3f415bb8-160",
+  "chatgpt.sessionToken": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..gEJj5Jhqi5cZZHJ9.n2LseDPYZeXFEoa1BjQyxHYHVQxGpGnRL-dIXBFd1pZm9TkG-IOBQh9EfuwcoU1vAQNmVOtf3ztM-gdPg5A_I6wUadSSNzjp0yhSFtSaOIi_D03l5x7wyuXSThqzF9bTPqizBVg2wqis4RH7Yg4l8J5NOYhTNDbbPcXzVPwOYp1Moo3bx-grKIf8gNU8m7DdmCBOsWi7aCMKp11LWv_gjUWTQzyA0ng0PsUFXMLD05M-7RaUrpIk-FIawZ6duqhUwOcDK8zC9HqRnFgWKwzs_13U1LZgg1Comc7ChtR8kh7J8V3HLp4IqWBTToyq5LJKjCYcTcXF4xipcqsUlcoqID6oMN4Ot_m4hUm51tyifVzpCc6Z-KCb-jKsJ5-W5c5jyAaGPR-_fsxK1AABMSh7WMRn5-N2zWOnaheJ7OHiywfFCwI1EqmKL2BhzdvhGyHL5lNTXyFlnv9b85pNLody2ezT5uwTZMejuKtqQSirP1UfW9AsYwH0jBwh0A-MfOdVK1Wc_fwgNgXsHzCtTBJ7Lmn-1WOA3j5r7euAKnCAKpMH-BcpB_-6UI6EB395k8yZxXKrbmUFSorPjtyqswZ43T085R4_fHewqT7nNvTZGFLiGMuZfiQzVlfHgjQ41nHTvW2rossaRE9uAG3mKTunc44IkVg_Lm_7nF8wM2q8qZ_JRUnq0YgbZF4OEOkHlAZVtgcGhjSweGWaleCty_ghYt59mbIvWiSUmNcUNm1QdrHAfY9W4YJC2QGnQ7rkLe3fj_Sc2hMy7FTCFLR1JoDt2KrLA-OJTIncDHUkKaPBCbJcMKpPN9870VushjMhAgeOsTMCjrmJXX3Hb79_ZWpTJ-jtvvSy9FwoogCQfhRcrTA5fCY3nPqKoR1T9y2L-p3ECbpNr6ir-rg8NmnMLF0T3Jmhc4X7YpyL1G-flrTfRueo0Wso9onWy9zO4nT7ruz1nLOAimr-oNnHtU9qk0j0AQJ7QW7LkYr2t1DKrLmIpuFBzcyFBDK-TbFPdPMQWwqIlhRNu_7mHAR87kCGmWjJyMSY_xcHjqjS0H7WesDhXQKfq1_pdzOyMRehT7qHjTcywd3duf1s4Xm2PV6jm2rBiJvfwYaJzy4tJY6L24IqgYQTd3eCCo75qcDmUxsAqRDE9NRkWF7n4D6rqpfvMDINExuWR8K5h4in-mRiHrSs8LLgO8WP8PxgUTEgP2TUhtSdTTxeUXFzqInvs6UsrX7fg0laiqlBeM51bZIkFCqHK1MfeSTxMRgms2kZfzIDnebsWd6Uo-blQATlN4lPQIDX7nELnztC9Ywr1lnaU7XpCt2yT03vLtN3f4aw-UmlDUWQYb6XRZ0JRqv3q3SkW7NNb91kMio-UytkxsSZbEr3nJHQswSWGD102yo1vHxGP2UrpV5bHxze4yY-bL3tMr-38rNALpCG7yau_aoCit4ZASDVUTjsf87988P83tgOFvsSEO08eO8l3EGCGZdyQDUP22iu2jN6MJORPwRsSXnCVmvfvW7IRyTtVlnbuUlr551e-D6bWvCf8892IvBcWTOLaY_uvJjEH_IQgmAab6_lcjiXPApBpXGCDaNscbm4INlNQGvGv0JXyJLAK83TnLsmXycdv29nTeymLkDKDrq8bKQbOLfs74AKkOlpliyXvTsarTDuVKObiirpilY2D_nEb6Exy5fWDKqrdzO3H-uxDZzzubKkIW-wYGsAmMro3soaB5ek-1KzTvR7q9e18xOeVTgBF3j5fT_jh9sQq3w1wodFHbCoNCxvLGLTayCXgxetznreQdO0uMHgaNKDRYC1veUA_bvDrNpcnnt0XXP9cuyxU843o5DjiWLfO4warpi36vdr6lulYsk1oJDVQKRb-m0fWZq6mm3POekaIbuHDCwMcuFRGDIL18MkYqNb8nifhCzCTlgiaCSvZ80Rkrb46pXOEQp1S_2ZSNoHn3pt1GHvjUVhwDisiHKIqqFB_e2BjMw1HI8kiWI0FdfQ4urTbJ8dAT32n6nWzUZ4Lcp4LdBCHvShmxd8HLifVo8GPwpYUjT8FdtWWhHWa-xq2OwW0s3mXRxeNPL1c5hMW5cLRX4Z3JFsxFz3wfrrNe77Zdd6rrIdYf_zuTXJLPNd8Qxbnj8IMfI8o0DokQb3eXDpxL2kAUTQlzBvUxqJ5UyBu1e4wl-AWRASfvDcj0CxbOqc3utIPRWb0uYfCo-c2Xb3Uq8M80SqTHhCqxz5UgOlMKEUWOB6Fca88HLdtqjPgpmLzEIMyLNWDfklJOHOi1iTDfCzMGFY49rCPONhHeiKfrisS8TrjWbatIQYdLFV-5y56ADDscADJZmddi2t9jfEhq2gZ_-fZWZXcvlT4PcqpDS-Ti5DyWZyOnESKevIN9uuolhH5b_pSta10-E1TWHY8s-kBeDs3V5DGakOkl72Q_oYegQ3rAqDDsAI_3t_J7YlvWKzVG95kctJ3efKm5dCg0YYhR_Sf_6W5wOwfVFHxd8uixFo9wTGkKhEvvFSF3HWvgOy54g6EzIkZ-JH65knYziPoOfDmGrAVe4sHDfO7zmScYmuwySBZxv-9iMxivkyxT2RGare4Qjcg_0.tFaDnWJYLHMhNszdIjSggg",
+  "chatgpt.userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+  "eslint.run": "onSave",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.largeFileOptimizations": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.colorTheme": "Night Owl",
+  "editor.fontFamily": "'Monolisa','Droid Sans Mono', 'monospace', monospace",
+  "workbench.settings.applyToAllProfiles": [
+  
+  ],
+  "workbench.startupEditor": "none",
+  "vsicons.dontShowNewVersionMessage": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "editor.cursorBlinking": "smooth"
+}
