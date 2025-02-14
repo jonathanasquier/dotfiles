@@ -52,3 +52,7 @@ https://nordvpn.com/fr/download/linux/#install-nordvpn
 https://www.railway.xyz/cccc
 https://www.ledger.com/fr/ledger-live
 https://www.shotcut.org/download/
+
+# Generate ssh key and add to ssh agent
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
